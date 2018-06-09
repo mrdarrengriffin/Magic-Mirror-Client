@@ -1,6 +1,6 @@
 <template>
 <div class="messages-component">
-    {{ this.messages[this.currentIndex] }}
+    <div class="message">{{ this.messages[this.currentIndex] }}</div>
 </div>
 </template>
 <script>
@@ -38,7 +38,10 @@ export default {
 }
 </script>
 <style scoped>
-    .messages-component{
+    .message{
         color:#ffffff;
+        width:75%;
+        margin:0 auto;
+        line-height:32pt;
     }
 </style>
