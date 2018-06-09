@@ -119,7 +119,7 @@ export default {
         padding-left:.5rem;
         text-align:right;
     }
-    .forecast-icon img{
-        margin-right:0rem;
+    .icon img{
+        margin-right:-.5rem;
     }
 </style>
