@@ -13,6 +13,9 @@ export default {
 }
 </script>
 <style scoped>
+.clock-component{
+    margin-bottom:1rem;
+}
 .clock{
     color:#ffffff;
     display:inline-block;
@@ -34,6 +37,7 @@ export default {
     margin-left:.3rem;
     font-size:28pt;
     font-weight:300;
-    color:rgba(255,255,255,0.4)
+    color:#ffffff;
+    opacity:0.5;
 }
 </style>

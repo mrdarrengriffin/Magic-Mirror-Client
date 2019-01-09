@@ -4,15 +4,17 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import axios from 'axios'
-import BootstrapVue from 'bootstrap-vue'
-import FontAwesome from 'vue-fontawesome';
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-Vue.use(BootstrapVue);
 
+//Vue.use(BootstrapVue);
+
+library.add([faPlay,faPause])
 
 Vue.use(require('vue-moment'))
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 
