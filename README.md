@@ -1,3 +1,5 @@
+**Project developed in 01/2017**
+
 # Magic Mirror Client
 Creation of magic mirror: [Imgur](https://imgur.com/a/cfop4FU)
 
