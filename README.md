@@ -1,21 +1,5 @@
-# magic-mirror-client
+# Magic Mirror Client
+Creation of magic mirror: [Imgur](https://imgur.com/a/cfop4FU)
 
-> Magic Mirror client that interfaces with an API
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## What is it?
+The magic mirror project is a smart mirror powered by a Raspberry Pi, a 23" monitor and 2 way mirrored plastic. Using VueJS for the frontend, the [Magic Mirror Server] serves a REST API to interact with.
